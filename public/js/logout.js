@@ -7,7 +7,7 @@ function logout() {
         document.location.replace("/");
       })
       .catch(err => console.log(err));
-  }
+}
   
-  document.querySelector("#logout-link").addEventListener("click", logout);
+document.querySelector("#logout-link").addEventListener("click", logout);
   

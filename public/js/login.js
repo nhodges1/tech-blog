@@ -15,9 +15,9 @@ const loginFormHandler = async function(event) {
         document.location.replace("/dashboard");
       })
       .catch(err => console.log(err));
-  };
+};
   
-  document
+document
     .querySelector("#login-form")
     .addEventListener("submit", loginFormHandler);
   
